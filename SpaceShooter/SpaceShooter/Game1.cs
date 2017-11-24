@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using PenetratorGame;
 
 namespace SpaceShooter
 {
@@ -9,13 +10,19 @@ namespace SpaceShooter
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        
+        private readonly GraphicsDeviceManager _graphics;
+        private SpriteBatch _spriteBatch;
+
+        private Penetrator _penetratorGame;
+
         public Game1()
         {
-            graphics = new GraphicsDeviceManager(this);
+            _graphics = new GraphicsDeviceManager(this);
+            _graphics.SynchronizeWithVerticalRetrace = false;
+            IsFixedTimeStep = false;
+
             Content.RootDirectory = "Content";
+            IsMouseVisible = true;
         }
 
         /// <summary>
@@ -27,6 +34,13 @@ namespace SpaceShooter
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
+            _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
+            _graphics.IsFullScreen = true;
+            _graphics.ApplyChanges();
+
+            _penetratorGame = new Penetrator();
+            _penetratorGame.Initialize();
 
             base.Initialize();
         }
@@ -38,9 +52,10 @@ namespace SpaceShooter
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            _penetratorGame.LoadContent(Content, GraphicsDevice);
         }
 
         /// <summary>
@@ -50,6 +65,7 @@ namespace SpaceShooter
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+            Content.Unload();
         }
 
         /// <summary>
@@ -63,6 +79,7 @@ namespace SpaceShooter
                 Exit();
 
             // TODO: Add your update logic here
+            _penetratorGame.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -73,9 +90,10 @@ namespace SpaceShooter
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
+            _penetratorGame.Draw(gameTime);
 
             base.Draw(gameTime);
         }
