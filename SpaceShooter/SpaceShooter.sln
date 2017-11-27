@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenetratorGame", "Penetrato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonogameExtensions", "MonogameExtensions\MonogameExtensions.csproj", "{B9262900-6EE6-4AA3-8A4D-75895BA76DC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B9262900-6EE6-4AA3-8A4D-75895BA76DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9262900-6EE6-4AA3-8A4D-75895BA76DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9262900-6EE6-4AA3-8A4D-75895BA76DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

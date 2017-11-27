@@ -1,0 +1,843 @@
+[
+  {
+    "Name": "WalkingBabyRight",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 0,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 1,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 2,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 3,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 4,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 5,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 6,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 7,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 8,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 9,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 10,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 11,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 12,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 13,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 14,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 15,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 16,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 17,
+        "Duration": 200.0,
+        "Effects": 0
+      }
+    ]
+  },
+  {
+    "Name": "WalkingBabyLeft",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 0,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 1,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 2,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 3,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 4,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 5,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 6,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 7,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 8,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 9,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 10,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 11,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 12,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 13,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 14,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 15,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 16,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 17,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "WalkingBabyUp",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 18,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 19,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 20,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 21,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 22,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "WalkingKingRight",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 23,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 24,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 25,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 26,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 27,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 28,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 29,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 30,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 31,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 32,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 33,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 34,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 35,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 36,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 37,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 38,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 39,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 40,
+        "Duration": 200.0,
+        "Effects": 0
+      }
+    ]
+  },
+  {
+    "Name": "WalkingKingLeft",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 23,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 24,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 25,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 26,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 27,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 28,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 29,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 30,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 31,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 32,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 33,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 34,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 35,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 36,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 37,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 38,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 39,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 40,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "WalkingKingUp",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 41,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 42,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 43,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 44,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 45,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "WalkingExplorerRight",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 46,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 47,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 48,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 49,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 50,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 51,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 52,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 53,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 54,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 55,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 56,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 57,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 58,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 59,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 60,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 61,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 62,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 63,
+        "Duration": 200.0,
+        "Effects": 0
+      }
+    ]
+  },
+  {
+    "Name": "WalkingExplorerLeft",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 46,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 47,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 48,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 49,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 50,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 51,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 52,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 53,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 54,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 55,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 56,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 57,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 58,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 59,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 60,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 61,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 62,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 63,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "WalkingExplorerUp",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 64,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 65,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 66,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 67,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 68,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  },
+  {
+    "Name": "MovingSnakeRight",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 69,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 70,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 71,
+        "Duration": 200.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 72,
+        "Duration": 200.0,
+        "Effects": 0
+      }
+    ]
+  },
+  {
+    "Name": "MovingSnakeLeft",
+    "Frames": [
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 69,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 70,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 71,
+        "Duration": 200.0,
+        "Effects": 1
+      },
+      {
+        "SpriteSheetId": 1,
+        "SpriteSheetFrameId": 72,
+        "Duration": 200.0,
+        "Effects": 1
+      }
+    ]
+  }
+]
