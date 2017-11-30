@@ -8,19 +8,7 @@ namespace AnimationLibrary
     public class Animations
     {
         private readonly Dictionary<string, Animation> _animations = new Dictionary<string, Animation>();
-       private readonly Dictionary<int, Animation> _animations2 = new Dictionary<int, Animation>();
-
-        //public Animation this[string key] => _animations[key];
-
-        //public Animation this[int index] => _animations2[index];
-        //{
-        //    get
-        //    {
-        //        Dictionary<string, Animation>.ValueCollection values = _animations.Values;
-
-        //        return values[0];
-        //    }
-        //}
+        private readonly Dictionary<int, Animation> _animations2 = new Dictionary<int, Animation>();
 
         public Animation GetByName(string name)
         {

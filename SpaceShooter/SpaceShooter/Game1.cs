@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using PenetratorGame;
+using ScreenManagerLibrary;
 
 namespace SpaceShooter
 {
@@ -13,13 +14,13 @@ namespace SpaceShooter
         private readonly GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        private Penetrator _penetratorGame;
+        private ScreenManager _screenManager;
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            _graphics.SynchronizeWithVerticalRetrace = false;
-            IsFixedTimeStep = false;
+            //_graphics.SynchronizeWithVerticalRetrace = false;
+            //IsFixedTimeStep = false;
 
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
@@ -34,13 +35,19 @@ namespace SpaceShooter
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
-            _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
-            _graphics.IsFullScreen = true;
-            _graphics.ApplyChanges();
+            //_graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
+            //_graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
+            //_graphics.IsFullScreen = true;
+            //_graphics.ApplyChanges();
 
-            _penetratorGame = new Penetrator();
-            _penetratorGame.Initialize();
+            InputManager.Initialize();
+            _screenManager = new ScreenManager();
+            _screenManager.AddScreen(new PenetratorScreen(GraphicsDevice));
+            _screenManager.AddScreen(new TestScreen(GraphicsDevice));
+            _screenManager.GotoScreen("Penetrator");
+            _screenManager.Initialize();
+            _screenManager.GotoScreen("TestScreen");
+            _screenManager.Initialize();
 
             base.Initialize();
         }
@@ -55,7 +62,10 @@ namespace SpaceShooter
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            _penetratorGame.LoadContent(Content, GraphicsDevice);
+            Screen penetrator = _screenManager.GetScreen(0);
+            penetrator.LoadContent(Content);
+            Screen testScreen = _screenManager.GetScreen(1);
+            testScreen.LoadContent(Content);
         }
 
         /// <summary>
@@ -79,7 +89,17 @@ namespace SpaceShooter
                 Exit();
 
             // TODO: Add your update logic here
-            _penetratorGame.Update(gameTime);
+            InputManager.Update();
+            if (InputManager.IsKeyTriggered(Keys.D1))
+            {
+                _screenManager.GotoScreen("Penetrator");
+            }
+            if (InputManager.IsKeyTriggered(Keys.D2))
+            {
+                _screenManager.GotoScreen("TestScreen");
+            }
+
+            _screenManager.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -93,7 +113,7 @@ namespace SpaceShooter
             GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
-            _penetratorGame.Draw(gameTime);
+            _screenManager.Draw(gameTime);
 
             base.Draw(gameTime);
         }

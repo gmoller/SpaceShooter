@@ -11,6 +11,8 @@ namespace MonogameExtensions
         private const int LineSpace = 3;
         private const int Space = 4;
 
+        private readonly GraphicsDevice _graphicsDevice;
+
         private readonly Dictionary<char, short[]> _pixels = new Dictionary<char, short[]>
         {
             { '0', new short[] { 0, 1, 1, 0, /**/ 1, 0, 0, 1, /**/ 1, 0, 0, 1, /**/ 1, 0, 0, 1, /**/ 0, 1, 1, 0 }},
@@ -30,6 +32,8 @@ namespace MonogameExtensions
             { ')', new short[] { 1, 0, /**/ 0, 1, /**/ 0, 1, /**/ 0, 1, /**/ 1, 0 }},
             { '.', new short[] { 0, 0, /**/ 0, 0, /**/ 0, 0, /**/ 0, 0, /**/ 1, 0 }},
             { ',', new short[] { 0, 0, /**/ 0, 0, /**/ 0, 0, /**/ 0, 1, /**/ 1, 0 }},
+            { '[', new short[] { 1, 1, /**/ 1, 0, /**/ 1, 0, /**/ 1, 0, /**/ 1, 1 }},
+            { ']', new short[] { 1, 1, /**/ 0, 1, /**/ 0, 1, /**/ 0, 1, /**/ 1, 1 }},
             { 'A', new short[] { 0, 1, 1, 0, /**/ 1, 0, 0, 1, /**/ 1, 1, 1, 1, /**/ 1, 0, 0, 1, /**/ 1, 0, 0, 1 }},
             { 'B', new short[] { 1, 1, 1, 0, /**/ 1, 0, 0, 1, /**/ 1, 1, 1, 0, /**/ 1, 0, 0, 1, /**/ 1, 1, 1, 0 }},
             { 'C', new short[] { 0, 1, 1, 1, /**/ 1, 0, 0, 0, /**/ 1, 0, 0, 0, /**/ 1, 0, 0, 0, /**/ 0, 1, 1, 1 }},
@@ -60,14 +64,19 @@ namespace MonogameExtensions
 
         private Dictionary<char, Texture2D> _textures;
 
-        public void LoadContent(GraphicsDevice device)
+        public PixelFont(GraphicsDevice graphicsDevice)
+        {
+            _graphicsDevice = graphicsDevice;
+        }
+
+        public void LoadContent()
         {
             if (_textures == null)
             {
                 _textures = new Dictionary<char, Texture2D>();
                 foreach (var c in _pixels)
                 {
-                    _textures[c.Key] = LoadCharacter(device, c.Value);
+                    _textures[c.Key] = LoadCharacter(_graphicsDevice, c.Value);
                 }
             }
         }
@@ -144,6 +153,14 @@ namespace MonogameExtensions
                     x += (int)(((x > 0 ? LetterSpace : 0) + texture.Width) * scale);
                 }
             }
+        }
+    }
+
+    public static class SpriteBatchExtensions
+    {
+        public static void DrawString(this SpriteBatch batch, PixelFont font, string message, Vector2 position, Color color)
+        {
+            font.Draw(batch, position, message, color);
         }
     }
 }

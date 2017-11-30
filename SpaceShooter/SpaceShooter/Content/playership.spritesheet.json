@@ -1,0 +1,54 @@
+{
+  "Id": 2,
+  "SpriteSheetTextureName": "playership",
+  "Frames": [
+    {
+      "X": 0,
+      "Y": 0,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 64,
+      "Y": 0,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 128,
+      "Y": 0,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 192,
+      "Y": 0,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 0,
+      "Y": 64,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 64,
+      "Y": 64,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 128,
+      "Y": 64,
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "X": 192,
+      "Y": 64,
+      "Width": 64,
+      "Height": 64
+    }
+  ]
+}

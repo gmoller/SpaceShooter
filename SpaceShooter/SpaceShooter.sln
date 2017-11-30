@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonogameExtensions", "Monog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenManagerLibrary", "ScreenManagerLibrary\ScreenManagerLibrary.csproj", "{9E82F460-5C3E-452A-8499-DBE3063F811A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C675B60-C0A9-48F0-9C5C-AFD365C6A937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E82F460-5C3E-452A-8499-DBE3063F811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E82F460-5C3E-452A-8499-DBE3063F811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E82F460-5C3E-452A-8499-DBE3063F811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E82F460-5C3E-452A-8499-DBE3063F811A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

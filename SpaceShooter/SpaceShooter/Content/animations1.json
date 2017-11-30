@@ -839,5 +839,207 @@
         "Effects": 1
       }
     ]
+  },
+  {
+    "Name": "PlayerShipRoll",
+    "Frames": [
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 0,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 1,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 2,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 3,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 4,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 3,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 2,
+        "Duration": 2000.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 2,
+        "SpriteSheetFrameId": 1,
+        "Duration": 2000.0,
+        "Effects": 0
+      }
+    ]
+  },
+  {
+    "Name": "Explosion",
+    "Frames": [
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 0,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 1,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 2,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 3,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 4,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 5,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 6,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 7,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 8,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 9,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 10,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 11,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 12,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 13,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 14,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 15,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 16,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 17,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 18,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 19,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 20,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 21,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 22,
+        "Duration": 50.0,
+        "Effects": 0
+      },
+      {
+        "SpriteSheetId": 3,
+        "SpriteSheetFrameId": 23,
+        "Duration": 50.0,
+        "Effects": 0
+      }
+    ]
   }
 ]

@@ -109,10 +109,13 @@
     <None Include="Content\animations1.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Content\characters.json">
+    <None Include="Content\characters.spritesheet.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Content\characters.spritesheet.json">
+    <None Include="Content\explosion1.spritesheet.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\playership.spritesheet.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -125,10 +128,12 @@
       <Project>{05db18e0-195a-46f3-91f3-b5c5c5928e9a}</Project>
       <Name>PenetratorGame</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ScreenManagerLibrary\ScreenManagerLibrary.csproj">
+      <Project>{9e82f460-5c3e-452a-8499-dbe3063f811a}</Project>
+      <Name>ScreenManagerLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Others\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
